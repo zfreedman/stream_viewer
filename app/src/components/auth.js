@@ -9,7 +9,7 @@ const googleSignInClass = "g-signin2";
 class Auth extends React.Component {
   render () {
     const { auth } = this.props;
-
+    
     return (
       <div>
         {
