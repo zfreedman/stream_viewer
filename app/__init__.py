@@ -9,7 +9,7 @@ def index():
 
 @app.route("/main.bundle.js")
 def send_bundle():
-    return send_from_directory("./templates/", "main.bundle.js");
-
-if __name__ == "__main__":
-  app.run(debug=True, port=5000)
+    return send_from_directory("./templates/", "main.bundle.js")
+#
+# if __name__ == "__main__":
+#   app.run(debug=True, port=5000)

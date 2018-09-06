@@ -1,3 +1,3 @@
 #!/bin/bash
 
-python app/server.py
+python runServer.py
