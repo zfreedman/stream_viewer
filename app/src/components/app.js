@@ -5,9 +5,7 @@ import Nav from "./nav";
 class App extends React.Component {
   render () {
     return (
-      <div>
-        <Nav />
-      </div>
+      <Nav />
     );
   }
 }
