@@ -19,3 +19,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+#added by repo owner below this line
+/app/src/googleAPI.js
