@@ -26,7 +26,7 @@ module.exports = merge(common, {
       // chunkFilename: "[id].css"
     }),
     new HtmlWebpackPlugin({
-      template: "public/index.html"
+      template: "app/public/index.html"
     })
   ]
 });
